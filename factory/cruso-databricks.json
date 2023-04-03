@@ -1,0 +1,9 @@
+{
+	"name": "cruso-databricks",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c90d980-8862-4e5c-977c-f7471545ad33",
+		"tenantId": "93fab375-3b3b-4a82-9b07-28cdee846cce"
+	}
+}
