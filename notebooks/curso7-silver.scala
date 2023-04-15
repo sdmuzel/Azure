@@ -79,7 +79,7 @@ display(df_silver)
 // COMMAND ----------
 
 val dbfs_path = "dbfs:/mnt/dados/silver/zap_imoveis"
-df_silver.write.format("delta").save(dbfs_path)
+df_silver.write.format("delta").mode(SaveMode.Overwrite).save(dbfs_path)
 
 // COMMAND ----------
 
