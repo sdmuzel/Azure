@@ -16,11 +16,10 @@
 			"recurrence": {
 				"frequency": "Week",
 				"interval": 1,
-				"startTime": "2023-04-14T01:40:00",
+				"startTime": "2023-04-15T01:42:00",
 				"timeZone": "E. South America Standard Time",
 				"schedule": {
 					"weekDays": [
-						"Monday",
 						"Saturday"
 					]
 				}
