@@ -20,7 +20,8 @@
 				"timeZone": "E. South America Standard Time",
 				"schedule": {
 					"weekDays": [
-						"Monday"
+						"Monday",
+						"Saturday"
 					]
 				}
 			}
