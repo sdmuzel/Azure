@@ -1,0 +1,29 @@
+{
+	"name": "trigger-ingestao-datalake",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "datalake-ingestion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2023-04-14T04:32:00",
+				"timeZone": "E. South America Standard Time",
+				"schedule": {
+					"weekDays": [
+						"Monday"
+					]
+				}
+			}
+		}
+	}
+}
